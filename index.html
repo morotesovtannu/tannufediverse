@@ -43,7 +43,10 @@ function FP_getObjectByID(id,o) {//v1.0
 	font-size: x-small;
 	color: #FFFFFF;
 }
-</style><script type="text/javascript">
+																																																																															   .auto-style8 {
+																																																																																   color: #FFFFFF;
+																																																																															   }
+																																																																															   </style><script type="text/javascript">
 <!--
 function FP_preloadImgs() {//v1.0
  var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
@@ -66,10 +69,18 @@ function FP_getObjectByID(id,o) {//v1.0
  return null;
 }
 // -->
-</script></head>
+</script>
+<script>
+window.addEventListener("DOMContentLoaded",e=>{var n="";fetch("https://script.google.com/macros/s/AKfycbxnJU8akSesY9HuiKN85q9TeYbtJxQlGiAgDM40pfN0PEJGJZ7k/exec").then(e=>e.json()).then(e=>(n=[...n=String(e.your_access).padStart(4,"0")].map(e=>`<span class="counter-number">${e}</span>`),document.getElementById("access-count").innerHTML=n.join(""),e)).catch(e=>{n="ERROR"})});
+</script>
+</head>
 <body style="background-image: url('wp005_f.gif')" onload="FP_preloadImgs(/*url*/'button9.jpg',/*url*/'buttonA.jpg')"><p class="auto-style1">&nbsp;</p>
 <p class="auto-style1"><span class="auto-style3"><em><strong>たんぬふぇでぃばーすへようこそ！</strong></em></span></p>
 <p class="auto-style1"><img height="75" src="neko_13.gif" width="75" /></p>
+<h2 class="auto-style6"><span class="auto-style8">あなたは</span><span id="access-count" class="auto-style8">LOADING</span><span class="auto-style8">人目の訪問者です
+ 
+</span>
+</h2>
 <p class="auto-style5"><strong>下のGOボタン押して入室してね！</strong></p>
 <p class="auto-style7">(このパスワードフォームはフェイクです。)</p>
 <form method="post">
