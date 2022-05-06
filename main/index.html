@@ -35,9 +35,33 @@
 }
 </style>
 <link rel="icon" type="image/png" href="favicon.png"/>
+<script type="text/javascript">
+<!--
+function FP_preloadImgs() {//v1.0
+ var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
+ for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
+}
+
+function FP_swapImg() {//v1.0
+ var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
+ n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
+ elm.$src=elm.src; elm.src=args[n+1]; } }
+}
+
+function FP_getObjectByID(id,o) {//v1.0
+ var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);
+ else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;
+ if(o.id==id || o.name==id) return o; if(o.childNodes) c=o.childNodes; if(c)
+ for(n=0; n<c.length; n++) { el=FP_getObjectByID(id,c[n]); if(el) return el; }
+ f=o.forms; if(f) for(n=0; n<f.length; n++) { els=f[n].elements;
+ for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }
+ return null;
+}
+// -->
+</script>
 </head>
 
-<body style="background-image: url('https://shiotan.ilnk.info/imgfile/wp005_f.gif')">
+<body style="background-image: url('https://shiotan.ilnk.info/imgfile/wp005_f.gif')" onload="FP_preloadImgs(/*url*/'button5.jpg',/*url*/'button6.jpg')">
 
 <p>&nbsp;</p>
 <h1 class="auto-style1"><em><span class="auto-style2"><strong>　たんぬふぇでぃばーす　</strong></span></em></h1>
@@ -88,6 +112,7 @@
 <img height="59" src="https://shiotan.ilnk.info/imgfile/homeilnkinfo-banner.gif" width="311" /></p>
 <h2 class="auto-style5">
 &nbsp;<img class="auto-style6" height="30" src="11.gif" width="39" /><span class="auto-style7">コメント欄</span><img class="auto-style6" height="30" src="11.gif" width="39" /></h2>
+<<<<<<< HEAD
 <div class="comment-box">
 <script>
 /* This code goes ABOVE the main HTML Comment Box code!
@@ -154,6 +179,19 @@ RELATIVE_DATES:true /* show dates in the form "X hours ago." etc. */
  <script type="text/javascript" id="hcb"> /*<!--*/ if(!window.hcb_user){hcb_user={};} (function(){var s=document.createElement("script"), l=hcb_user.PAGE || (""+window.location).replace(/'/g,"%27"), h="https://www.htmlcommentbox.com";s.setAttribute("type","text/javascript");s.setAttribute("src", h+"/jread?page="+encodeURIComponent(l).replace("+","%2B")+"&mod=%241%24wq1rdBcg%24knz86eUaCnK%2FexFWK8oR91"+"&opts=16798&num=10&ts=1651839794419");if (typeof s!="undefined") document.getElementsByTagName("head")[0].appendChild(s);})(); /*-->*/ </script>
 <!-- end www.htmlcommentbox.com -->
 </div>======&gt;&gt;&gt;&gt;&gt;&gt;&gt; ee3daba5
+=======
+<p class="auto-style3"><a href="https://tannu.bbs.fc2.com/">
+<img id="img1" alt="Go" height="28" onmousedown="FP_swapImg(1,0,/*id*/'img1',/*url*/'button6.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img1',/*url*/'button4.jpg')" onmouseover="FP_swapImg(1,0,/*id*/'img1',/*url*/'button5.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img1',/*url*/'button5.jpg')" src="button4.jpg" style="border: 0" width="140" /><!-- MSComment="ibutton" fp-style="fp-btn: Embossed Capsule 1; fp-font-size: 12" fp-title="Go" --></a></p>
+<p class="auto-style3"><p class="auto-style5">
+    <a href="https://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="https://jigsaw.w3.org/css-validator/images/vcss"
+            alt="正当なCSSです!" />
+    </a>
+</p>
+</p>
+======&gt;&gt;&gt;&gt;&gt;&gt;&gt; ee3daba5
+>>>>>>> parent of b53421c (コメ欄設置)
 
 </body>
 
