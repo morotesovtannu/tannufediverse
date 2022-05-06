@@ -35,33 +35,9 @@
 }
 </style>
 <link rel="icon" type="image/png" href="favicon.png"/>
-<script type="text/javascript">
-<!--
-function FP_preloadImgs() {//v1.0
- var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
- for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
-}
-
-function FP_swapImg() {//v1.0
- var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
- n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
- elm.$src=elm.src; elm.src=args[n+1]; } }
-}
-
-function FP_getObjectByID(id,o) {//v1.0
- var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);
- else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;
- if(o.id==id || o.name==id) return o; if(o.childNodes) c=o.childNodes; if(c)
- for(n=0; n<c.length; n++) { el=FP_getObjectByID(id,c[n]); if(el) return el; }
- f=o.forms; if(f) for(n=0; n<f.length; n++) { els=f[n].elements;
- for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }
- return null;
-}
-// -->
-</script>
 </head>
 
-<body style="background-image: url('https://shiotan.ilnk.info/imgfile/wp005_f.gif')" onload="FP_preloadImgs(/*url*/'button5.jpg',/*url*/'button6.jpg')">
+<body style="background-image: url('https://shiotan.ilnk.info/imgfile/wp005_f.gif')">
 
 <p>&nbsp;</p>
 <h1 class="auto-style1"><em><span class="auto-style2"><strong>　たんぬふぇでぃばーす　</strong></span></em></h1>
@@ -112,17 +88,71 @@ function FP_getObjectByID(id,o) {//v1.0
 <img height="59" src="https://shiotan.ilnk.info/imgfile/homeilnkinfo-banner.gif" width="311" /></p>
 <h2 class="auto-style5">
 &nbsp;<img class="auto-style6" height="30" src="11.gif" width="39" /><span class="auto-style7">コメント欄</span><img class="auto-style6" height="30" src="11.gif" width="39" /></h2>
-<p class="auto-style3"><a href="https://tannu.bbs.fc2.com/">
-<img id="img1" alt="Go" height="28" onmousedown="FP_swapImg(1,0,/*id*/'img1',/*url*/'button6.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img1',/*url*/'button4.jpg')" onmouseover="FP_swapImg(1,0,/*id*/'img1',/*url*/'button5.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img1',/*url*/'button5.jpg')" src="button4.jpg" style="border: 0" width="140" /><!-- MSComment="ibutton" fp-style="fp-btn: Embossed Capsule 1; fp-font-size: 12" fp-title="Go" --></a></p>
-<p class="auto-style3"><p class="auto-style5">
-    <a href="https://jigsaw.w3.org/css-validator/check/referer">
-        <img style="border:0;width:88px;height:31px"
-            src="https://jigsaw.w3.org/css-validator/images/vcss"
-            alt="正当なCSSです!" />
-    </a>
-</p>
-</p>
-======&gt;&gt;&gt;&gt;&gt;&gt;&gt; ee3daba5
+<div class="comment-box">
+<script>
+/* This code goes ABOVE the main HTML Comment Box code!
+replace the text in the single quotes below to customize labels.*/
+hcb_user = {
+/* L10N */
+comments_header : 'コメント欄です',
+name_label : '名前',
+content_label: 'コメントを入れてください',
+submit : '送る',
+logout_link : '<img title="log out" src="https://www.htmlcommentbox.com/static/images/door_out.svg" alt="[logout]" class="hcb-icon hcb-door-out"/>',
+admin_link : '<img src="https://www.htmlcommentbox.com/static/images/door_in.svg" alt="[login]" class="hcb-icon hcb-door-in"/>',
+no_comments_msg: 'まだコメントされていません。最初のコメントを投稿しましょう！',
+add:'Add your comment',
+again: '別のコメントを送る',
+rss:'<img src="https://www.htmlcommentbox.com/static/images/feed.svg" class="hcb-icon" alt="rss"/> ',
+said:':',
+prev_page:'<img src="https://www.htmlcommentbox.com/static/images/arrow_left.png" class="hcb-icon" title="previous page" alt="[prev]"/>',
+next_page:'<img src="https://www.htmlcommentbox.com/static/images/arrow_right.png" class="hcb-icon" title="next page" alt="[next]"/>',
+showing:'Showing',
+to:'to',
+website_label:'website (optional)',
+email_label:'email',
+anonymous:'Anonymous',
+mod_label:'(モデレーター)',
+subscribe:'Email Me Replies',
+add_image:'画像を添付',
+are_you_sure:'Do you want to flag this comment as inappropriate?',
+
+reply:'Reply',
+flag:'Flag',
+like:'Like',
+
+/* dates */
+days_ago:'日前',
+hours_ago:'時間前',
+minutes_ago:'分前',
+within_the_last_minute:'直前',
+
+msg_thankyou:'コメントありがとうございます',
+msg_approval:'NOTE: This comment is not published until approved',
+msg_approval_required:'Thank you for commenting! Your comment will appear once approved by a moderator.',
+
+err_bad_html:'変なHTMLです',
+err_bad_email:'変なメールアドレスです',
+err_too_frequent:'送りすぎです',
+err_comment_empty:'無は送れません',
+err_denied:'許しを乞うて下さい',
+err_unknown:'何故か送れませんでした',
+err_spam:'残念でした',
+err_blocked:'悪いことしたらだめです',
+
+/* SETTINGS */
+MAX_CHARS: 8192,
+PAGE:'', /* ID of the webpage to show comments for. defaults to the webpage the user is currently visiting. */
+ON_COMMENT: function(){}, /* Function to call after commenting. */
+RELATIVE_DATES:true /* show dates in the form "X hours ago." etc. */
+};
+</script>
+<!-- done customizing labels of htmlcommentbox.com -->
+<!-- begin wwww.htmlcommentbox.com -->
+<div id="HCB_comment_box"><a href="http://www.htmlcommentbox.com">Comment Box</a> is loading comments...</div>
+<script type="text/javascript" id="hcb"> /*<!--*/ if(!window.hcb_user){hcb_user={};} (function(){var s=document.createElement("script"), l=hcb_user.PAGE || (""+window.location).replace(/'/g,"%27"), h="https://www.htmlcommentbox.com";s.setAttribute("type","text/javascript");s.setAttribute("src", h+"/jread?page="+encodeURIComponent(l).replace("+","%2B")+"&mod=%241%24wq1rdBcg%243KptIvGdyAnmqMmFjTrUS."+"&opts=22&num=10&ts=1651770503193");if (typeof s!="undefined") document.getElementsByTagName("head")[0].appendChild(s);})(); /*-->*/ </script>
+<!-- end www.htmlcommentbox.com -->
+</div>======&gt;&gt;&gt;&gt;&gt;&gt;&gt; ee3daba5
 
 </body>
 
