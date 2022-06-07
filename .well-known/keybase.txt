@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/morotesovtannu_2
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://home.ilnk.info
+  * I am morotesovtannu_2 (https://keybase.io/morotesovtannu_2) on keybase.
+  * I have a public key ASDaP4x0PYa_AvC-vwtuUefhu-hJIZGDbCVkFpW_Ea4MkAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120da3f8c743d86bf02f0bebf0b6e51e7e1bbe8492191836c25641695bf11ae0c900a",
+      "host": "keybase.io",
+      "kid": "0120da3f8c743d86bf02f0bebf0b6e51e7e1bbe8492191836c25641695bf11ae0c900a",
+      "uid": "1d02ad3d75821131d32f20ac70f80019",
+      "username": "morotesovtannu_2"
+    },
+    "merkle_root": {
+      "ctime": 1654621035,
+      "hash": "065d1f5a84e0f76077465dee08bec4ef444f7b09d38e0f1de0af7c32b3a7aada858a90def599f3db820f5b624a242d134a5c4961017b83e45d16f6a40ad402e1",
+      "hash_meta": "f6fc432836b8a468266bce597a5d80802114f434e57e542f68df07ee9886be7a",
+      "seqno": 22630587
+    },
+    "service": {
+      "entropy": "+TiV+priGh5yjHJ1FrlzK7de",
+      "hostname": "home.ilnk.info",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.9.0"
+  },
+  "ctime": 1654621061,
+  "expire_in": 504576000,
+  "prev": "1665199e1cf00f62a28148ae7bd842d5efa1a2b1c1c3f97dab7bc867d05a3588",
+  "seqno": 6,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg2j+MdD2GvwLwvr8LblHn4bvoSSGRg2wlZBaVvxGuDJAKp3BheWxvYWTESpcCBsQgFmUZnhzwD2KigUiue9hC1e+horHBw/l9q3vIZ9BaNYjEIFN2j2seXfH/GimiL90SbHg30XqsTayQRcGL0mZhuNrSAgHCo3NpZ8RAv1oTU3OEqSZrRFs9sFcuc7fUpi+hV8dPZAsI8GhZv3URjdnv5u8/S/1pJIR85YTKJbal2Q62nnxf1Sxi/OLlAKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIBkKGT9HPslIwHkRpTuhb/rCm6mPlPwfI4qBrbO4CeR9o3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/morotesovtannu_2
+
+==================================================================
