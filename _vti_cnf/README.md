@@ -8,3 +8,5 @@ vti_nexttolasttimemodified:TW|08 Jun 2022 12:17:52 -0000
 vti_timecreated:TR|08 Jun 2022 12:17:55 -0000
 vti_cacheddtm:TX|08 Jun 2022 12:17:52 -0000
 vti_filesize:IR|175
+vti_syncofs_sv52.star.ne.jp\:21/%2fsevemi.rin.ilnk.info/tannu:TW|15 Jun 2022 11:08:17 -0000
+vti_syncwith_sv52.star.ne.jp\:21/%2fsevemi.rin.ilnk.info/tannu:TX|08 Jun 2022 12:17:52 -0000
