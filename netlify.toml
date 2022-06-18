@@ -3,3 +3,13 @@
   to = "https://home.ilnk.info"
   status = 301
   force = true
+[[redirects]]
+  from = "https://tannufediverse.netlify.app/socialtos/index_kr.html"
+  to = "https://home.ilnk.info/socialtos/index_kr.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://home.ilnk.info/socialtos/index_kr.html"
+  to = "https://home.ilnk.info/socialtos/kr"
+  status = 301
+  force = true
