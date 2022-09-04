@@ -13,3 +13,29 @@
   to = "https://home.ilnk.info/socialtos/kr"
   status = 301
   force = true
+[[redirects]]
+  from = "https://home.ilnk.info/socialtos/kr"
+  to = "https://docs.msk.ilnk.info/tos/kr"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://home.ilnk.info/socialtos"
+  to = "https://docs.msk.ilnk.info/tos"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://home.ilnk.info/socialtos/en"
+  to = "https://docs.msk.ilnk.info/tos/en"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://home.ilnk.info/socialtos/de"
+  to = "https://docs.msk.ilnk.info/tos/de"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://home.ilnk.info/socialtos/ru"
+  to = "https://docs.msk.ilnk.info/tos/ru"
+  status = 301
+  force = true
+  
